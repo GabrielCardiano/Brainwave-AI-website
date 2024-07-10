@@ -58,7 +58,7 @@ function Header() {
             lg:mx-auto 
             lg:bg-transparent`}
         >
-          <div className="relatie z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
+          <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
               <a
                 key={item.id}
@@ -103,7 +103,9 @@ function Header() {
           New account
         </a>
 
-        <Button className="hidden lg:flex">Sign In</Button>
+        <Button className="hidden lg:flex" href="#login">
+          Sign In
+        </Button>
 
         <Button
           onClick={toggleNavigation}

@@ -8,6 +8,7 @@ function Section({
   customPaddings,
   children,
 }) {
+  console.log({ customPaddings });
   return (
     <div
       id={id}
