@@ -1,4 +1,4 @@
-function Heading({ className, title }) {
+function Heading({ className, title, text }) {
   return (
     <div
       className={`
@@ -9,6 +9,7 @@ function Heading({ className, title }) {
       `}
     >
       {title && <h2 className="h2">{title}</h2>}
+      {text && <p className="body-2 mt-4 text-n-4">{text}</p>}
     </div>
   );
 }
