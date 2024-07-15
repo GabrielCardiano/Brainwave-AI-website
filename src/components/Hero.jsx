@@ -15,10 +15,10 @@ function Hero() {
 
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem] "
+      className="pt-[12rem] -mt-[5.25rem]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
-      // customPaddings
+      customPaddings
       id="hero"
     >
       <div className="container relative" ref={parallaxRef}>
@@ -34,7 +34,7 @@ function Hero() {
             lg:mb:[6rem]"
         >
           <h1 className="h1 mb-6">
-            Explore the Possibilities <br /> of AI Chatting with{" "}
+            Explore the Possibilities of&nbsp;AI&nbsp;Chatting with{" "}
             <span className="inline-block relative">
               Brainwave
               <img
